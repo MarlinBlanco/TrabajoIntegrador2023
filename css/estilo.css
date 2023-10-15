@@ -1,0 +1,97 @@
+/*ESTILO DEL MENU NAV/BAR*/
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav {
+    margin-right: 10%;
+}
+.navbarcustom{
+    background-color: #353a40 ;
+}
+.buyticket1{
+    color: #2AA644;
+}
+.buyticket1:hover{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+/*ESTILO DEL CAROUSEL  */
+.carousel-inner{
+    width: 100%;
+    min-height: 80vh;
+    z-index: 1;
+}
+ .slide1{
+    background-image: url(../imagenes_integrador_front/ba1.jpg);
+    background-size: cover;
+    filter: brightness(0.4);
+    width:100%;
+    min-height: 80vh;
+    background-position: center center;
+}
+.slide2{
+    background-image: url(../imagenes_integrador_front/ba2.jpg);
+    background-size: cover;
+    filter: brightness(0.4);
+    width:100%;
+    min-height: 80vh;
+    background-position: center center;
+}
+.slide3{
+    background-image: url(../imagenes_integrador_front/ba3.jpg);
+    background-size: cover;
+    filter: brightness(0.4);
+    width:100%;
+    min-height: 80vh;
+    background-position: center center;
+}
+.divup-carusel .divconf-bsas{
+    background-color: hsla(32, 100%, 88%, 0.014);
+    /* display: block; */
+    /* margin-right: 8%; */
+}
+.card-text{
+    text-align: justify;
+}
+.botonesConf .btn a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.buyticket{
+    background-color: #29A744;
+}
+
+/*ESTILO DE CARDS-PRESENTADORES*/
+.card-body .btn{
+    font-weight: 700;
+}
+.botonreact{
+    background-color: #19A2B5 !important ;
+}
+
+/*ESTILO DE BANNER (GRIS E IMAGEN PLAYA)*/
+.bannergris{
+    background-color: #353A40;
+}
+
+/*ESTILO DE FROMULARIO CONVIERTETE*/
+.form1 .form-control{
+    margin: 3px;
+}
+.enviarbutton{
+    background-color: #96C93E !important;
+}
+
+/*ESTILO DEL FOOTER*/
+footer{
+    /* background-color: #1C3D4E; */
+    background: linear-gradient(90deg,  rgb(28, 61, 78), rgb(30, 76, 102) );
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 2%;
+}
+
