@@ -59,10 +59,14 @@ btn_r.addEventListener('click',(e)=>{
  getValueFromInput()
 })
 
-//Boton Borrar
+
+
 var btn_b = document.getElementById('boton-borrar');
 btn_b.addEventListener('click', (e)=>{
-
-
-
+    reset_total()
    });
+   
+   //Boton Borrar
+function reset_total() {
+    document.getElementById('total').innerText='$:'
+}
